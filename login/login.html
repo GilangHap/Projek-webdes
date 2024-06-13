@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/icon.png" />
+    <title>sign in - Telor Asin</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <a href="../index.html"><p>Telur<span>Asin</span>.</p></a>
+        <form id="loginform">
+          <h1>Masuk</h1>
+          <p>Belum punya akun? <a href="../sign-up/signup.html">Daftar</a></p>
+          <label for="">Username</label>
+          <input type="text" id="username" />
+          <label for="">Password</label>
+          <input type="password" id="password"/>
+          <div class="remember-me-container">
+            <div class="remember-me">
+              <input type="radio" id="remember-me" name="remember-me" />
+              <label for="remember-me">Ingat saya</label>
+            </div>
+            <a href="">Lupa password ?</a>
+          </div>
+          <button type="submit">Masuk</button>
+        <div class="lain">
+            <div class="line"></div>
+            <div class="box">atau masuk dengan</div>
+            <div class="line"></div>
+        </div>
+        <div class="sosmed">
+            <div class="ggl" id="google-login"></div>
+            <div class="fcb" id="fb-login"></div>
+            <div class="apl" id="apple-login"></div>
+        </div>
+        </form>
+      </div>
+      <div class="right">
+        <img src="img/kanan.png" alt="" />
+        <div class="text-container">
+          <h1>Lorem Ipsum</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum sollicitudin eros, eget commodo erat efficitur id. Ut tristique nibh a ante lacinia, a tincidunt lectus ullamcorper</p>
+      </div>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  max-width: 850px;
+  background: #fffbeb;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
+}
+
+.login {
+  width: 450px;
+  position: relative;
+}
+
+.login a p {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 50px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #77b0aa;
+}
+
+.login a p span{
+  color: #135d66;
+}
+
+
+form {
+  width: 300px;
+  margin: 60px auto;
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: center;
+  margin: 8px;
+  font-size: 14px;
+}
+
+form a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #007bff;
+}
+
+.right {
+  position: relative;
+}
+
+.right img {
+  width: 400px;
+  height: 100%;
+  /* background-image: url(img/kanan.png); */
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.right .text-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.right .text-container h1 {
+  color: #fff;
+  text-align: left;
+}
+
+.right .text-container p {
+  color: #fff;
+  text-align: left;
+  font-size: 11px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  font-weight: 530;
+  padding: 5px;
+}
+
+input {
+  width: 100%;
+  margin: 2px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  background: #fffbeb;
+  border: 2px solid #eac58c;
+}
+
+.remember-me {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px 0;
+  white-space: nowrap;
+}
+
+.remember-me label {
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 100%;
+}
+
+.remember-me-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remember-me-container a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #444b59;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  width: auto;
+  display: none;
+  cursor: pointer;
+}
+
+input[type="radio"] + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #eac58c;
+  border-radius: 50%;
+  background: #fffbeb; /* Warna latar belakang */
+  margin-right: 10px;
+  vertical-align: middle;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+}
+
+input[type="radio"]:checked + label::before {
+  background: radial-gradient(
+    circle,
+    #eac58c 35%,
+    #fffbeb 35%
+  ); /* Efek gradasi untuk pusat lingkaran */
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 302px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #eac58c;
+}
+
+button:hover {
+  background: #f7a629;
+}
+
+.lain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.line {
+  width: 30%;
+  height: 2px;
+  background-color: #eac58c;
+  margin: 0px;
+}
+
+.box {
+  background-color: #fff;
+  padding: 1px 2px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  font-size: 8px;
+  text-align: center;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ggl {
+  display: flex;
+  width: 65px;
+  margin: 10px;
+  background: #fff;
+  background-image: url("img/google.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 20px;
+  border: 2px solid #eac58c; /* Add a border */
+  border-radius: 10px; /* Add a rounded corner */
+}
+
+.fcb {
+  display: flex;
+  width: 65px;
+  margin: 10px;
+  background: #fff;
+  background-image: url("img/facebook.png ");
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 20px;
+  border: 2px solid #eac58c; /* Add a border */
+  border-radius: 10px;
+}
+
+.apl {
+  display: flex;
+  margin: 10px;
+  width: 65px;
+  background: #fff;
+  background-image: url("img/apple.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 20px;
+  border: 2px solid #eac58c; /* Add a border */
+  border-radius: 10px;
+}

@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #FFFBEB;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
+}
+
+.signup{
+    width: 450px;
+    position: relative;
+}
+
+.signup a p{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    width: 50px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #77b0aa;
+}
+
+.signup a p span{
+    color: #135d66;
+}
+
+form{
+    width: 300px;
+    margin: 60px auto;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    text-align: center;
+    margin: 8px;
+    font-size: 14px;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #007BFF;
+}
+
+.left {
+    position: relative;
+}
+
+.left img{
+    width: 400px;
+    height: 100%;
+    /* background-image: url(img/kanan.png); */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.left .text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.left .text-container h1 {
+    color: #fff;
+    text-align: left;
+}
+
+.left .text-container p {
+    color: #fff;
+    text-align: left;
+    font-size: 11px;
+}
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 530;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background:#FFFBEB;
+    border: 2px solid #EAC58C;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 302px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #EAC58C;
+}
+
+button:hover{
+    background: #F7A629;
+}
+
+.lain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.line {
+    width: 30%;
+    height: 2px;
+    background-color: #EAC58C;
+    margin: 0px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 1px 2px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    font-size: 8px;
+    text-align: center;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ggl {
+    display: flex;
+    width: 65px;
+    margin: 10px;
+    background: #fff;
+    background-image: url('img/google.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid #EAC58C; /* Add a border */
+    border-radius: 10px; /* Add a rounded corner */
+}
+
+.fcb {
+    display: flex;
+    width: 65px;
+    margin: 10px;
+    background: #fff;
+    background-image: url('img/facebook.png ');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid #EAC58C; /* Add a border */
+    border-radius: 10px;
+}
+
+.apl {
+    display: flex;
+    margin: 10px;
+    width: 65px;
+    background: #fff;
+    background-image: url('img/apple.png');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid #EAC58C; /* Add a border */
+    border-radius: 10px;
+}
+
+.right .text-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    font-size: 14px;
+}
